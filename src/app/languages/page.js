@@ -1,9 +1,9 @@
-import React from 'react'
-
-const page = () => {
+export default function Languages() {
   return (
-    <div>page</div>
-  )
+    <div className="container-fluid bg-white">
+      <div className="container mt10">
+        <h1>New</h1>
+      </div>
+    </div>
+  );
 }
-
-export default page
